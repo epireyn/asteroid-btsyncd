@@ -44,7 +44,7 @@ target_link_libraries(asteroid-btsyncd PRIVATE
 	QtMpris::QtMpris
 	SystemSettings::SystemSettings
 	KCalCoren::KCalCoren
-	mKCal:mKCal
+	mKCal::mKCal
 	PkgConfig::GIOMM)
 
 
