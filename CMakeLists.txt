@@ -19,6 +19,8 @@ find_package(Qt5 COMPONENTS DBus REQUIRED)
 find_package(Timed REQUIRED)
 find_package(QtMpris REQUIRED)
 find_package(SystemSettings REQUIRED)
+find_package(KCalCore REQUIRED)
+find_package(mKCal REQUIRED)
 
 find_package(PkgConfig REQUIRED)
 pkg_check_modules(GIOMM giomm-2.4 REQUIRED IMPORTED_TARGET)
