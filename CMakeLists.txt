@@ -19,7 +19,7 @@ find_package(Qt5 COMPONENTS DBus REQUIRED)
 find_package(Timed REQUIRED)
 find_package(QtMpris REQUIRED)
 find_package(SystemSettings REQUIRED)
-find_package(KCalCore REQUIRED)
+find_package(KCalCoren REQUIRED)
 find_package(mKCal REQUIRED)
 
 find_package(PkgConfig REQUIRED)
