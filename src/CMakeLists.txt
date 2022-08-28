@@ -43,6 +43,8 @@ target_link_libraries(asteroid-btsyncd PRIVATE
 	Timed::Timed
 	QtMpris::QtMpris
 	SystemSettings::SystemSettings
+	KCalCoren::KCalCoren
+	mKCal:mKCal
 	PkgConfig::GIOMM)
 
 
